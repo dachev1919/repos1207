@@ -13,24 +13,26 @@
 <header class="header">
     <div class="navbar">
         <div class="container">
-            <button class="menu-button">
-                <span class="menu-button__line"></span>
-                <span class="menu-button__line"></span>
-                <span class="menu-button__line"></span>
-            </button>
-            <div class="logo navbar__logo">
-                <stong class="logo__text">Dachev Write It</stong>
-                <span class="logo__description">Индивидуальная разработка сайтов</span>
+            <div class="navbar-wrap">
+                <button class="menu-button navbar__menu-button">
+                    <span class="menu-button__line"></span>
+                    <span class="menu-button__line"></span>
+                    <span class="menu-button__line"></span>
+                </button>
+                <div class="logo navbar__logo">
+                    <stong class="logo__text">Dachev Write It</stong>
+                    <span class="logo__description">Индивидуальная разработка сайтов</span>
+                </div>
+                <div class="navbar__mobile">
+                    <a class="navbar__phone" href="tell:+380636219861">+380636219861</a>
+                    <span class="navbar__work-time navbar__small-text">без выходных 9:00 - 21:00</span>
+                </div>
+                <div class="navbar__landline">
+                    <a class="navbar__phone" href="tell:+380992290079">+380992290079</a>
+                    <a class="navbar__email navbar__small-text" href="mailto:dachev1919@gmai.com">dachev1919@gmai.com</a>
+                </div>
+                <button class="button-o navbar__button">Получить консультацию</button>
             </div>
-            <div class="navbar__mobile">
-                <a class="navbar__phone" href="tell:+380636219861">+380636219861</a>
-                <span class="navbar__work-time">без выходных 9:00 - 21:00</span>
-            </div>
-            <div class="navbar__landline">
-                <a class="navbar__phone" href="tell:+380992290079">+380992290079</a>
-                <a class="navbar__phone" href="mailto:dachev1919@gmai.com">dachev1919@gmai.com</a>
-            </div>
-            <button class="button-o navbar__button">Получить консультацию</button>
         </div>
         <!-- /.container -->
     </div>

@@ -10,5 +10,43 @@
 //Подключение шрифтов
 @import 'fonts'
 
+//Подключение цветов
+@import 'colors'
+
 body
   +light
+  color: $text-color
+
+.button-o
+  border: 2px solid $primary
+  padding: 17px 22px
+  font-size: 12px
+  text-transform: uppercase
+  color: $primary
+  background: none
+  +bold
+  &:hover
+    border: 2px solid rgba(80, 127, 225, 0.70)
+    color: rgba(80, 127, 225, 0.70)
+
+  &:active
+    border: 2px solid $primary
+    padding: 17px 22px
+    font-size: 12px
+    text-transform: uppercase
+    color: $primary
+    background: none
+
+.logo
+  &__text
+    +bold
+  &__description
+    color: $text-color-light
+
+.navbar
+  &__phone
+
+    color: $text-color-light
+  &__small-text
+    +bold
+    color: $text-color
