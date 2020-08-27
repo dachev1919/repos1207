@@ -4,6 +4,9 @@
 // Шапка сайта
 @import 'section/navbar'
 
+// Блок hero
+@import 'section/hero'
+
 // Настройки интерфейса
 @import 'interface'
 
@@ -45,8 +48,20 @@ body
 
 .navbar
   &__phone
-
     color: $text-color-light
   &__small-text
     +bold
     color: $text-color
+.hero
+  &__title
+    +bold
+
+.button
+  border: none
+  text-transform: uppercase
+  padding: 25px 45px
+  background-color: $primary
+  color: #ffffff
+  +bold
+  &:hover
+    background-color: rgba(80, 127, 225, 0.66)

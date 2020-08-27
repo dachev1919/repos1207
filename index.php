@@ -24,11 +24,11 @@
                     <span class="logo__description">Индивидуальная разработка сайтов</span>
                 </div>
                 <div class="navbar__mobile">
-                    <a class="navbar__phone" href="tell:+380636219861">+380636219861</a>
+                    <a class="navbar__phone" href="tell:+380636219861">+38(063)-621-98-61</a>
                     <span class="navbar__work-time navbar__small-text">без выходных 9:00 - 21:00</span>
                 </div>
                 <div class="navbar__landline">
-                    <a class="navbar__phone" href="tell:+380992290079">+380992290079</a>
+                    <a class="navbar__phone" href="tell:+380992290079">+38(099)-229-00-79</a>
                     <a class="navbar__email navbar__small-text" href="mailto:dachev1919@gmai.com">dachev1919@gmai.com</a>
                 </div>
                 <button class="button-o navbar__button">Получить консультацию</button>
@@ -38,7 +38,13 @@
     </div>
     <!-- /.navbar -->
     <div class="hero">
-
+        <div class="container">
+            <h1 class="hero__title">
+                Гарантия <br>максимального качества<br>за краткий период
+            </h1>
+            <span class="hero__subtitle">Dachev write it</span>
+            <button class="button hero__button">Обратная связь</button>
+        </div>
     </div>
     <!-- /.hero -->
 </header>
