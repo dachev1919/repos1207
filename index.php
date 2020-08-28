@@ -11,6 +11,19 @@
 </head>
 <body>
 <header class="header">
+    <div class="menu ">
+        <div class="container">
+            <nav class="menu__nav">
+                <a href="#" class="menu__link">Главная</a>
+                <a href="#" class="menu__link">Портфолио</a>
+                <a href="#" class="menu__link">Каталог</a>
+                <a href="#" class="menu__link">Контакты</a>
+                <a href="#" class="menu__link">Отзывы</a>
+                <a href="#" class="menu__link">О нас</a>
+            </nav>
+        </div>
+        <!--/.container-->
+    </div>
     <div class="navbar">
         <div class="container">
             <div class="navbar-wrap">

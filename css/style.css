@@ -13,6 +13,7 @@
   top: 0;
   width: 100%;
   background-color: #fff;
+  z-index: 99;
 }
 .navbar-wrap {
   min-height: 80px;
@@ -37,6 +38,34 @@
   text-decoration: none;
 }
 
+.menu {
+  position: fixed;
+  z-index: 0;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  padding: 16px 0;
+  color: #ffffff;
+  transition: 0.2s;
+  transform: translateY(0%);
+}
+.menu_active {
+  transform: translateY(0);
+}
+.menu__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu__link {
+  text-decoration: none;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.menu__link:hover {
+  color: rgba(255, 255, 255, 0.64);
+}
 .menu-button {
   cursor: pointer;
   display: flex;
@@ -74,10 +103,10 @@
 }
 
 .hero {
-  background: #f2f2f2 url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80") no-repeat right;
+  background: #f2f2f2 url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80") no-repeat right top 80px;
   background-size: contain;
-  padding-top: 183px;
-  padding-bottom: 183px;
+  padding-top: 181px;
+  padding-bottom: 181px;
 }
 .hero__title {
   font-size: 30px;
@@ -159,6 +188,10 @@ body {
 }
 .button:hover {
   background-color: rgba(80, 127, 225, 0.66);
+}
+
+.menu {
+  background-color: #507fe1;
 }
 
 /*# sourceMappingURL=style.css.map */

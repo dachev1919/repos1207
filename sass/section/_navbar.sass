@@ -4,6 +4,7 @@
   top: 0
   width: 100%
   background-color: #fff
+  z-index: 99
   &-wrap
     min-height: 80px
     display: flex
@@ -26,6 +27,28 @@
 
 
 .menu
+  position: fixed
+  z-index: 0
+  top: 80px
+  left: 0
+  width: 100%
+  padding: 16px 0
+  color: #ffffff
+  transition: 0.2s
+  transform: translateY(0%)
+  &_active
+    transform: translateY(0)
+  &__nav
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__link
+    text-decoration: none
+    font-size: 17px
+    text-transform: uppercase
+    color: #ffffff
+    &:hover
+      color: rgba(255, 255, 255, 0.64)
   &-button
     cursor: pointer
     display: flex
