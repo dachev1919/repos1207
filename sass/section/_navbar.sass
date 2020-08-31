@@ -6,11 +6,9 @@
   background-color: #fff
   z-index: 99
   &-wrap
-    min-height: 80px
     display: flex
     align-items: center
     justify-content: space-between
-
   &__mobile, &__landline
     text-align: right
   &__phone
@@ -25,7 +23,6 @@
     font-size: 14px
     text-decoration: none
 
-
 .menu
   position: fixed
   z-index: 0
@@ -35,9 +32,11 @@
   padding: 16px 0
   color: #ffffff
   transition: 0.2s
-  transform: translateY(0%)
+  transform: translateY(-200%)
+  opacity: 0
   &_active
     transform: translateY(0)
+    opacity: 1
   &__nav
     display: flex
     align-items: center
@@ -77,8 +76,25 @@
     margin-bottom: 5px
     font-size: 18px
     text-transform: uppercase
+
   &__description
     display: block
     font-size: 14px
     color: #6b6b6b
 
+@media (max-width: 991px)
+  .navbar
+    &__mobile, &__landline
+      display: none
+@media (max-width: 576px)
+  .logo
+    display: none
+  .menu
+    top: 55px
+    //transform: translateY(0)
+    &-button
+      height: 60px
+    &__nav
+      flex-direction: column
+    &__link
+      margin-bottom: 20px
