@@ -62,5 +62,6 @@
     <!-- /.hero -->
 </header>
 <!-- /.header -->
+<!-- +comment -->
 </body>
 </html>
