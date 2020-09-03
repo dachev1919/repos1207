@@ -62,7 +62,109 @@
     <!-- /.hero -->
 </header>
 <!-- /.header -->
-<!-- +comment -->
-<p>TEST</p>
+
+<main>
+    <section class="offer bg-secondary">
+        <div class="container">
+            <div class="offer__block offer-block">
+                <h2 class="offer__title">Оставьте Вашу заявку</h2>
+                <span class="offer__subtitle">и получите бесплатную консультацию для
+                Вашего проекта</span>
+                <form action="#" class="form offer__form">
+                    <div class="form__row">
+                        <div class="form__group">
+                            <label for="" class="form__label">Дата создания</label>
+                            <input type="date" class="input form__input">
+                        </div>
+                        <div class="form__group">
+                            <label for="" class="form__label">Тип проекта</label>
+                            <input type="text" class="input form__input">
+                        </div>
+                        <div class="form__group">
+                            <label for="" class="form__label" id="formLastLabel">Название</label>
+                            <input type="text" class="input form__input">
+                        </div>
+                    </div>
+                    <div class="form__row form__row-checkbox">
+                        <div class="form__checkbox">
+                            <input class="checkbox" type="checkbox" id="newClient">
+                            <label class="checkbox-label" for="newClient">
+                                Новый пользователь
+                            </label>
+                        </div>
+                        <div class="form__checkbox">
+                            <input class="checkbox" type="checkbox" id="getNotification">
+                            <label class="checkbox-label" for="getNotification">
+                                Получать уведомления
+                            </label>
+                        </div>
+                    </div>
+                    <!-- /.form__row -->
+                    <div class="form__row">
+                        <div class="form__group">
+                            <input type="text" class="input form__input" placeholder="Ваше имя">
+                        </div>
+                        <div class="form__group">
+                            <input type="tel" class="input form__input" placeholder="Ваш телефон">
+                        </div>
+                        <div class="form__group">
+                            <input type="submit" class="button form__button" value="Получить консультацию">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.offer -->
+    <section class="features section">
+        <div class="container">
+            <h2 class="section-title section__title">Преимущество сотрудничества</h2>
+            <div class="features-block">
+                <div class="features-block__item"><img src="img/features/feature-1.png" alt="Бесплатная консультация" class="feature-block__image">
+                    <!-- /.feature-block__image -->
+                    <p class="features-block__text">Бесплатная консультация <br> от профессионала</p>
+                    <!-- /.feature-block__text -->
+                </div>
+                <!-- /.feature-block__item -->
+                <div class="features-block__item"><img src="img/features/feature-2.png" alt="Гарантия качества" class="feature-block__image">
+                    <!-- /.feature-block__image -->
+                    <p class="features-block__text">Долгосрочная гарантия <br> качества</p>
+                    <!-- /.feature-block__text -->
+                </div>
+                <!-- /.feature-block__item -->
+                <div class="features-block__item"><img src="img/features/feature-3.png" alt="Большой каталог работ" class="feature-block__image">
+                    <!-- /.feature-block__image -->
+                    <p class="features-block__text">Большой каталог <br> работ</p>
+                    <!-- /.feature-block__text -->
+                </div>
+                <!-- /.feature-block__item -->
+                <div class="features-block__item"><img src="img/features/feature-4.png" alt="Строгое соблюдение сроков" class="feature-block__image">
+                    <!-- /.feature-block__image -->
+                    <p class="features-block__text">Строгое соблюдение <br> сроков</p>
+                    <!-- /.feature-block__text -->
+                </div>
+                <!-- /.feature-block__item -->
+                <div class="features-block__item"><img src="img/features/feature-5.png" alt="Индивидуальное производство" class="feature-block__image">
+                    <!-- /.feature-block__image -->
+                    <p class="features-block__text">Индивидуальное <br> производство</p>
+                    <!-- /.feature-block__text -->
+                </div>
+                <!-- /.feature-block__item -->
+                <div class="features-block__item"><img src="img/features/feature-6.png" alt="Минимальная цена на рынке" class="feature-block__image">
+                    <!-- /.feature-block__image -->
+                    <p class="features-block__text">Минимальная цена <br> на рынке</p>
+                    <!-- /.feature-block__text -->
+                </div>
+                <!-- /.feature-block__item -->
+            </div>
+            <!-- /.feature-block -->
+
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.features section -->
+
+</main>
 </body>
 </html>

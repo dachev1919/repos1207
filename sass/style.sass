@@ -13,9 +13,26 @@
 //Подключение цветов
 @import 'colors'
 
+// Подключение offer-a
+@import "section/offer"
+
+// Подключение features-a
+@import "section/features"
+
 body
   +light
   color: $text-color
+
+.section
+  padding: 100px 0
+  &-title
+    font-size: 30px
+    +bold
+    text-align: center
+    text-transform: uppercase
+  &__title
+    margin-bottom: 100px
+    margin-top: -15px
 
 .button-o
   border: 2px solid $primary
@@ -63,9 +80,77 @@ body
   &:hover
     background-color: rgba(80, 127, 225, 0.66)
 
+.bg-secondary
+  background: linear-gradient(90deg, #f3f3f3, #e8e8e8)
+
 .menu
   background-color: $primary
+
+.offer
+  &__title
+    +bold
+
+.input
+  border: 1px solid #dddddd
+  height: 80px
+  padding: 30px
+
+.checkbox
+  &-label
+    display: flex
+    align-items: center
+    margin-right: 40px
+    &:hover
+      cursor: pointer
+    &:before
+      content: ''
+      display: inline-block
+      font-size: 30px
+      line-height: 30px
+      width: 30px
+      height: 30px
+      border: 1px solid #dddddd
+      margin-right: 20px
+
+input[type="checkbox"]
+  display: none
+  &:checked + label:before
+    content: '\2713'
+    color: $primary
+    font-size: 55px
+    -webkit-transform: scale(1)
+    transform: scale(1)
+    -webkit-transition: 0.3s
+    transition: 0.3s
+
 
 @media (max-width: 576px)
   .button-o
     font-size: 10px
+    margin-top: 5px
+  .section
+    padding: 60px 0
+    &-title
+      font-size: 24px
+  .features
+    &block
+      &__item
+        img
+          width: 80px
+
+@media (max-width: 500px)
+  .input
+    padding: 10px
+    height: 30px
+    font-size: 10px
+  .checkbox
+    &-label
+      display: contents
+      text-align: center
+      font-size: 10px
+  .form
+    &__button
+      height: 30px
+      padding: 10px
+      font-size: 10px
+      width: 100%

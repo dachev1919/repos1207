@@ -87,13 +87,21 @@
     &__mobile, &__landline
       display: none
 @media (max-width: 576px)
+  .checkbox
+    &-label
+      flex-basis: 100%
+  .navbar
+    height: 70px
   .logo
     display: none
   .menu
-    top: 55px
+    //top: 55px
     //transform: translateY(0)
     &-button
+      margin-top: 5px
       height: 60px
+      border: none
+    .button-o
     &__nav
       flex-direction: column
     &__link
