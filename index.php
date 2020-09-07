@@ -164,7 +164,295 @@
         <!-- /.container -->
     </section>
     <!-- /.features section -->
-
+    <section class="section catalog">
+        <div class="container">
+            <h2 class="section-title section__title" style="padding-top: 25px;">Каталог сайтов</h2>
+            <div class="catalog-block">
+                <div class="catalog-card catalog__card">
+                    <img class="catalog-card__image" src="img/catalog/catalog-image-1.jpg" alt="">
+                    <span class="catalog-card__tag">Популярный макет</span>
+                    <!-- /.catalog-card__tag -->
+                    <div class="catalog-card__buttons">
+                        <button class="button-fitting catalog-card__button">Примерить онлайн</button>
+                        <!-- /.button-fitting catalog-card__button -->
+                        <button class="button-add catalog-card__button">Заказать</button>
+                        <!-- /.button-add catalog-card__button -->
+                        <button class="button-like"><img src="img/like.png" alt=""></button>
+                        <!-- /.button-like -->
+                    </div>
+                    <!-- /.catalog-card__button -->
+                </div>
+                <!-- /.catalog-card -->
+                <div class="catalog-card catalog__card">
+                    <img class="catalog-card__image" src="img/catalog/catalog-image-2.jpg" alt="">
+                    <span class="catalog-card__tag">Популярный макет</span>
+                    <!-- /.catalog-card__tag -->
+                    <div class="catalog-card__buttons">
+                        <button class="button-fitting catalog-card__button">Примерить онлайн</button>
+                        <!-- /.button-fitting catalog-card__button -->
+                        <button class="button-add catalog-card__button">Заказать</button>
+                        <!-- /.button-add catalog-card__button -->
+                        <button class="button-like"><img src="img/like.png" alt=""></button>
+                        <!-- /.button-like -->
+                    </div>
+                    <!-- /.catalog-card__button -->
+                </div>
+                <!-- /.catalog-card -->
+                <div class="catalog-card catalog__card">
+                    <img class="catalog-card__image" src="img/catalog/catalog-image-3.jpg" alt="">
+                    <span class="catalog-card__tag">Новый макет</span>
+                    <!-- /.catalog-card__tag -->
+                    <div class="catalog-card__buttons">
+                        <button class="button-fitting catalog-card__button">Примерить онлайн</button>
+                        <!-- /.button-fitting catalog-card__button -->
+                        <button class="button-add catalog-card__button">Заказать</button>
+                        <!-- /.button-add catalog-card__button -->
+                        <button class="button-like"><img src="img/like.png" alt=""></button>
+                        <!-- /.button-like -->
+                    </div>
+                    <!-- /.catalog-card__button -->
+                </div>
+                <!-- /.catalog-card -->
+                <div class="catalog-card catalog__card">
+                    <img class="catalog-card__image" src="img/catalog/catalog-image-4.jpg" alt="">
+                    <span class="catalog-card__tag">Новый макет</span>
+                    <!-- /.catalog-card__tag -->
+                    <div class="catalog-card__buttons">
+                        <button class="button-fitting catalog-card__button">Примерить онлайн</button>
+                        <!-- /.button-fitting catalog-card__button -->
+                        <button class="button-add catalog-card__button">Заказать</button>
+                        <!-- /.button-add catalog-card__button -->
+                        <button class="button-like"><img src="img/like.png" alt=""></button>
+                        <!-- /.button-like -->
+                    </div>
+                    <!-- /.catalog-card__button -->
+                </div>
+                <!-- /.catalog-card -->
+                <div class="catalog-card catalog__card">
+                    <img class="catalog-card__image" src="img/catalog/catalog-image-5.jpg" alt="">
+                    <span class="catalog-card__tag">Новый макет</span>
+                    <!-- /.catalog-card__tag -->
+                    <div class="catalog-card__buttons">
+                        <button class="button-fitting catalog-card__button">Примерить онлайн</button>
+                        <!-- /.button-fitting catalog-card__button -->
+                        <button class="button-add catalog-card__button">Заказать</button>
+                        <!-- /.button-add catalog-card__button -->
+                        <button class="button-like"><img src="img/like.png" alt=""></button>
+                        <!-- /.button-like -->
+                    </div>
+                    <!-- /.catalog-card__button -->
+                </div>
+                <!-- /.catalog-card -->
+                <div class="catalog-card catalog__card">
+                    <img class="catalog-card__image" src="img/catalog/catalog-image-6.jpg" alt="">
+                    <span class="catalog-card__tag">Новый макет</span>
+                    <!-- /.catalog-card__tag -->
+                    <div class="catalog-card__buttons">
+                        <button class="button-fitting catalog-card__button">Примерить онлайн</button>
+                        <!-- /.button-fitting catalog-card__button -->
+                        <button class="button-add catalog-card__button">Заказать</button>
+                        <!-- /.button-add catalog-card__button -->
+                        <button class="button-like"><img src="img/like.png" alt=""></button>
+                        <!-- /.button-like -->
+                    </div>
+                    <!-- /.catalog-card__button -->
+                </div>
+                <!-- /.catalog-card -->
+                <div class="catalog-card catalog__card">
+                    <img class="catalog-card__image" src="img/catalog/catalog-image-7.jpg" alt="">
+                    <span class="catalog-card__tag">Популярный макет</span>
+                    <!-- /.catalog-card__tag -->
+                    <div class="catalog-card__buttons">
+                        <button class="button-fitting catalog-card__button">Примерить онлайн</button>
+                        <!-- /.button-fitting catalog-card__button -->
+                        <button class="button-add catalog-card__button">Заказать</button>
+                        <!-- /.button-add catalog-card__button -->
+                        <button class="button-like"><img src="img/like.png" alt=""></button>
+                        <!-- /.button-like -->
+                    </div>
+                    <!-- /.catalog-card__button -->
+                </div>
+                <!-- /.catalog-card -->
+                <div class="catalog-card catalog__card">
+                    <img class="catalog-card__image" src="img/catalog/catalog-image-8.jpg" alt="">
+                    <span class="catalog-card__tag">Популярный макет</span>
+                    <!-- /.catalog-card__tag -->
+                    <div class="catalog-card__buttons">
+                        <button class="button-fitting catalog-card__button">Примерить онлайн</button>
+                        <!-- /.button-fitting catalog-card__button -->
+                        <button class="button-add catalog-card__button">Заказать</button>
+                        <!-- /.button-add catalog-card__button -->
+                        <button class="button-like"><img src="img/like.png" alt=""></button>
+                        <!-- /.button-like -->
+                    </div>
+                    <!-- /.catalog-card__button -->
+                </div>
+                <!-- /.catalog-card -->
+            </div>
+            <!-- /.catalog-block -->
+            <div class="catalog__link" style="padding-bottom: 24px">
+                <a href="#" class="button catalog__link-more button_lg">смотреть весь каталог</a>
+                <span class="catalog__description">Более 100 макетов на разные темы</span>
+            </div>
+            <!-- /.catalog-link -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section catalog -->
+    <section class="section blog">
+        <div class="container">
+            <div class="blog__heading">
+                <h3 class="blog__title">Полезное и важное о нас</h3>
+                <a href="#" class="blog__link-more">Читать все статьи</a>
+            </div>
+            <div class="blog-list">
+                <div class="blog-card blog-list__card">
+                    <div class="blog-list__image">
+                        <img src="img/blog-list/blog-post-1.jpg" alt="">
+                    </div>
+                    <!-- /.blog-list__image -->
+                    <div class="blog-list__text">
+                        Виды сайтов
+                    </div>
+                    <!-- /.blog-list__text -->
+                </div>
+                <!-- /.blog-card blog-list__card -->
+                <div class="blog-card blog-list__card">
+                    <div class="blog-list__image">
+                        <img src="img/blog-list/blog-post-2.jpg" alt="">
+                    </div>
+                    <!-- /.blog-list__image -->
+                    <div class="blog-list__text">
+                        Список разработчиков
+                    </div>
+                    <!-- /.blog-list__text -->
+                </div>
+                <!-- /.blog-card blog-list__card -->
+                <div class="blog-card blog-list__card">
+                    <div class="blog-list__image">
+                        <img src="img/blog-list/blog-post-3.jpg" alt="">
+                    </div>
+                    <!-- /.blog-list__image -->
+                    <div class="blog-list__text">
+                        Применяемые инструменты
+                    </div>
+                    <!-- /.blog-list__text -->
+                </div>
+                <!-- /.blog-card blog-list__card -->
+                <div class="blog-card blog-list__card">
+                    <div class="blog-list__image">
+                        <img src="img/blog-list/blog-post-4.jpg" alt="">
+                    </div>
+                    <!-- /.blog-list__image -->
+                    <div class="blog-list__text">
+                        Список выполненных<br> проектов
+                    </div>
+                    <!-- /.blog-list__text -->
+                </div>
+                <!-- /.blog-card blog-list__card -->
+            </div>
+            <!-- /.blog-list -->
+        </div>
+    </section>
+    <!-- /.section blog -->
+    <section class="section price">
+        <div class="container">
+            <h2 class="section-title section__title" style="padding-top: 24px;">Цены и виды сайтов</h2>
+            <!-- /.section-title section__title -->
+            <div class="price-block">
+                <div class="price-card price-block__card">
+                    <div class="price-card__image"><img src="img/price/price-1.jpg" alt=""></div>
+                    <div class="price-card__text">
+                        <div class="price-card__pricetag">
+                            <h4 class="price-card__title">Простые</h4>
+                            <span class="price-card__cost">От 25 долларов</span></div>
+                        <div class="price-card__button">
+                            <button class="button">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-card price-block__card">
+                    <div class="price-card__image"><img src="img/price/price-2.jpg" alt=""></div>
+                    <div class="price-card__text">
+                        <div class="price-card__pricetag">
+                            <h4 class="price-card__title">Средние</h4>
+                            <span class="price-card__cost">От 25 долларов</span></div>
+                        <div class="price-card__button">
+                            <button class="button">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-card price-block__card">
+                    <div class="price-card__image"><img src="img/price/price-3.jpg" alt=""></div>
+                    <div class="price-card__text">
+                        <div class="price-card__pricetag">
+                            <h4 class="price-card__title">Сложные</h4>
+                            <span class="price-card__cost">От 25 долларов</span></div>
+                        <div class="price-card__button">
+                            <button class="button">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-card price-block__card">
+                    <div class="price-card__image"><img src="img/price/price-4.jpg" alt=""></div>
+                    <div class="price-card__text">
+                        <div class="price-card__pricetag">
+                            <h4 class="price-card__title">Индивидуальные</h4>
+                            <span class="price-card__cost">От 25 долларов</span></div>
+                        <div class="price-card__button">
+                            <button class="button">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-card price-block__card">
+                    <div class="price-card__image"><img src="img/price/price-5.jpg" alt=""></div>
+                    <div class="price-card__text">
+                        <div class="price-card__pricetag">
+                            <h4 class="price-card__title">Особенные</h4>
+                            <span class="price-card__cost">От 25 долларов</span></div>
+                        <div class="price-card__button">
+                            <button class="button">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-card price-block__card">
+                    <div class="price-card__image"><img src="img/price/price-6.jpg" alt=""></div>
+                    <div class="price-card__text">
+                        <div class="price-card__pricetag">
+                            <h4 class="price-card__title">Дешевые</h4>
+                            <span class="price-card__cost">От 25 долларов</span></div>
+                        <div class="price-card__button">
+                            <button class="button">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-card price-block__card">
+                    <div class="price-card__image"><img src="img/price/price-7.jpg" alt=""></div>
+                    <div class="price-card__text">
+                        <div class="price-card__pricetag">
+                            <h4 class="price-card__title">Популярные</h4>
+                            <span class="price-card__cost">От 25 долларов</span></div>
+                        <div class="price-card__button">
+                            <button class="button">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-card price-block__card">
+                    <div class="price-card__image"><img src="img/price/price-8.jpg" alt=""></div>
+                    <div class="price-card__text">
+                        <div class="price-card__pricetag">
+                            <h4 class="price-card__title">Необычные</h4>
+                            <span class="price-card__cost">От 25 долларов</span></div>
+                        <div class="price-card__button">
+                            <button class="button">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section price -->
 </main>
 </body>
 </html>

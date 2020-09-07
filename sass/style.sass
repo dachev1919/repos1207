@@ -1,30 +1,26 @@
 // Базовые настройки сетки
 @import 'grid'
-
-// Шапка сайта
-@import 'section/navbar'
-
-// Блок hero
-@import 'section/hero'
-
 //Подключение шрифтов
 @import 'fonts'
-
 //Подключение цветов
 @import 'colors'
-
-// Подключение offer-a
+@import 'section/navbar'
+@import 'section/hero'
 @import "section/offer"
-
-// Подключение features-a
 @import "section/features"
+@import "section/catalog"
+@import "section/blog-list"
+@import "section/price"
 
 body
   +light
   color: $text-color
 
+img
+  max-width: 100%
+
 .section
-  padding: 100px 0
+  padding: 0 100px
   &-title
     font-size: 30px
     +bold
@@ -32,7 +28,6 @@ body
     text-transform: uppercase
   &__title
     margin-bottom: 100px
-    margin-top: -15px
 
 .button-o
   border: 2px solid $primary
@@ -41,11 +36,12 @@ body
   text-transform: uppercase
   color: $primary
   background: none
+  background-color: #ffffff
+  text-decoration: none
   +bold
   &:hover
     border: 2px solid rgba(80, 127, 225, 0.70)
     color: rgba(80, 127, 225, 0.70)
-
   &:active
     border: 2px solid $primary
     padding: 17px 22px
@@ -53,6 +49,32 @@ body
     text-transform: uppercase
     color: $primary
     background: none
+
+.button
+  text-decoration: none
+  border: none
+  text-transform: uppercase
+  padding: 25px 45px
+  background-color: $primary
+  color: #ffffff
+  +bold
+  &:hover
+    cursor: pointer
+    background-color: rgba(80, 127, 225, 0.66)
+  &-fitting
+    color: $primary
+    background-color: #ffffff
+  &-add
+    background-color: lighten($primary, 10%)
+    color: #ffffff
+  &-like
+    background-color: $primary
+    height: 30px
+    width: 30px
+    border: none
+    img
+      width: 16px
+      margin-top: 4px
 
 .logo
   &__text
@@ -70,16 +92,6 @@ body
   &__title
     +bold
 
-.button
-  border: none
-  text-transform: uppercase
-  padding: 25px 45px
-  background-color: $primary
-  color: #ffffff
-  +bold
-  &:hover
-    background-color: rgba(80, 127, 225, 0.66)
-
 .bg-secondary
   background: linear-gradient(90deg, #f3f3f3, #e8e8e8)
 
@@ -96,6 +108,7 @@ body
   padding: 30px
 
 .checkbox
+  display: none
   &-label
     display: flex
     align-items: center
@@ -111,7 +124,16 @@ body
       height: 30px
       border: 1px solid #dddddd
       margin-right: 20px
+.blog
+  &__title
+    +bold
+  &__link-more
+    color: $primary
 
+.price
+  &-card
+    &__cost
+      +bold
 input[type="checkbox"]
   display: none
   &:checked + label:before
@@ -122,7 +144,6 @@ input[type="checkbox"]
     transform: scale(1)
     -webkit-transition: 0.3s
     transition: 0.3s
-
 
 @media (max-width: 576px)
   .button-o

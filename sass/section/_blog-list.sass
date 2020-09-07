@@ -1,0 +1,41 @@
+.blog
+  &__heading
+    padding-top: 25px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-bottom: 70px
+    &__title
+      font-size: 24px
+    &__link-more
+      font-size: 16px
+  &-list
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    &__image
+      height: 230px
+      width: 230px
+      overflow: hidden
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08)
+    &__text
+      display: flex
+      margin: 0px
+      padding-top: 34px
+      justify-content: center
+      text-align: center
+      min-height: 80px
+    &__card
+      margin-bottom: 20px
+  &-card
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08)
+@media (max-width: 1199px)
+  .blog
+    &-list
+      justify-content: space-around
+    &__card
+      //margin-right: 30px
+      //margin-left: 30px
+      max-width: 200px
+    &__image
+      height: 100px
