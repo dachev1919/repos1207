@@ -453,6 +453,73 @@
         <!-- /.container -->
     </section>
     <!-- /.section price -->
+    <section class="section steps">
+        <div class="container">
+            <h2 class="section-title section__title" style="padding-top: 40px">
+                Этапы работ
+            </h2>
+            <!-- /.section-title section__title -->
+            <div class="steps-block">
+                <div class="step">
+                    <img src="img/steps/step-1.png" alt="" class="step__image">
+                    <!-- /.step__image -->
+                    <h4 class="step__title">Заявка</h4>
+                    <!-- /.step__title -->
+                    <p class="step__text">Вы оставляете заявку на нашем сайте или по телефону</p>
+                    <!-- /.step__text -->
+                </div>
+                <!-- /.step -->
+                <div class="step">
+                    <img src="img/steps/step-2.png" alt="" class="step__image">
+                    <!-- /.step__image -->
+                    <h4 class="step__title">Интервью</h4>
+                    <!-- /.step__title -->
+                    <p class="step__text">Мы связываемся с Вами в установленное время и уточняем пожелания</p>
+                    <!-- /.step__text -->
+                </div>
+                <!-- /.step -->
+                <div class="step">
+                    <img src="img/steps/step-3.png" alt="" class="step__image">
+                    <!-- /.step__image -->
+                    <h4 class="step__title">Договор</h4>
+                    <!-- /.step__title -->
+                    <p class="step__text">Состовляем договор по оплате и сопровождению Вашего будущего продукта</p>
+                    <!-- /.step__text -->
+                </div>
+                <!-- /.step -->
+                <div class="step">
+                    <img src="img/steps/step-4.png" alt="" class="step__image">
+                    <!-- /.step__image -->
+                    <h4 class="step__title">Дизайн</h4>
+                    <!-- /.step__title -->
+                    <p class="step__text">Мы создаем уникальный дизайн сайта с учетом всех пожеланий</p>
+                    <!-- /.step__text -->
+                </div>
+                <!-- /.step -->
+                <div class="step">
+                    <img src="img/steps/step-5.png" alt="" class="step__image">
+                    <!-- /.step__image -->
+                    <h4 class="step__title">Производство</h4>
+                    <!-- /.step__title -->
+                    <p class="step__text">Производим полностью продукт включая все нюансы</p>
+                    <!-- /.step__text -->
+                </div>
+                <!-- /.step -->
+                <div class="step">
+                    <img src="img/steps/step-6.png" alt="" class="step__image">
+                    <!-- /.step__image -->
+                    <h4 class="step__title">Сопровождение</h4>
+                    <!-- /.step__title -->
+                    <p class="step__text">Мы поддерживаем Вас дальнейшей консультацией</p>
+                    <!-- /.step__text -->
+                </div>
+                <!-- /.step -->
+            </div>
+            <!-- /.steps-block -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section steps -->
 </main>
 </body>
 </html>
