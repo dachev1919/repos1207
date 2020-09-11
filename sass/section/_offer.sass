@@ -1,11 +1,16 @@
 .offer
   padding: 50px
   &-block
-    background: #ffffff url("https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80")no-repeat center right
-    background-size: contain
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1)
     padding: 80px
     margin-top: -90px
+    &_request-bg
+      background: #ffffff url("https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80") no-repeat center right
+      background-size: contain
+    &_price-bg
+      padding: 70px
+      background: #f1f1f1 url("https://images.unsplash.com/photo-1521089815383-cf2b2cf7f0f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80") no-repeat center right
+      background-size: contain
   &__title
     font-size: 25px
     text-transform: uppercase
@@ -14,6 +19,7 @@
     display: block
     font-size: 21px
     margin-bottom: 48px
+    max-width: 650px
 
 .form
   &__row
@@ -31,10 +37,15 @@
     flex-basis: 33.33%
   &__input
     width: 100%
+    &:focus
+      outline: none
   &__button
     height: 80px
+    &-price
+      margin-right: 40px
 
-@media (max-width: 1199px)
+
+@media (max-width: 1216px)
   .offer
     &-block
       background: #ffffff

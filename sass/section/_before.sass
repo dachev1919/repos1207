@@ -1,0 +1,55 @@
+.before
+  background-color: #f1f1f1
+  &-slider
+    &-wrap
+      z-index: 50
+      position: relative
+      max-width: 640px
+      margin: auto
+    &-arrows
+      position: absolute
+      z-index: -1
+      display: flex
+      justify-content: space-between
+      top: 50%
+      width: 100%
+      transform: translateY(-100%)
+    &__dots
+      display: flex
+      justify-content: center
+      align-items: center
+      list-style: none
+      padding: 0
+      margin: 28px auto auto
+      li
+        width: 10px
+        height: 10px
+        background-color: #ffffff
+        border-radius: 50%
+        margin: 5px
+        &:hover
+          cursor: pointer
+        &.slick-active
+          background-color: #5b7fda
+
+      button
+        display: none
+.arrow
+  cursor: pointer
+  background-color: transparent
+  border: none
+  &:focus
+    outline: none
+  &-left
+    opacity: 0.5
+    width: 64px
+    transform: translateX(-100%)
+  &-right
+    opacity: 0.5
+    width: 64px
+    transform: translateX(100%)
+@media (max-width: 768px)
+  .before
+    &-slider
+      &__dots
+        margin: auto
